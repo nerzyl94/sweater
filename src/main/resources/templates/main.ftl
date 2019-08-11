@@ -3,6 +3,7 @@
 
 <@common.page>
     <@login.logout />
+    <span><a href="/user">Users list</a></span>
 
     <div>
         <form method="post">
