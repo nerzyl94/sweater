@@ -2,9 +2,11 @@
 <#import "parts/login.ftl" as login>
 
 <@common.page>
-    <div>Please registrate your account</div>
+    <div class="mb-3">
+        <h5>Please create your account</h5>
+    </div>
 
         ${message?ifExists}
 
-    <@login.login "/registration" />
+    <@login.login "/registration" true/>
 </@common.page>
