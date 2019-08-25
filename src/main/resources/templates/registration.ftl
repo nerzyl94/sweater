@@ -4,7 +4,7 @@
 <@common.page>
     <div>Please registrate your account</div>
 
-        ${message}
+        ${message?ifExists}
 
     <@login.login "/registration" />
 </@common.page>
